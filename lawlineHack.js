@@ -1,7 +1,7 @@
-// Solution
+// Solution - paste lines 3-13 into the console
 
 function checkForButton() {
-  var button = document.getElementsByClassName("action")[4];
+  var button = document.getElementsByClassName("action")[2];
   if (button) {
     button.click()
     console.log('clicked button')
@@ -11,6 +11,14 @@ function checkForButton() {
 setInterval(function() {
   checkForButton()
 }, 10000)
+
+
+
+
+
+
+
+
 
 // HTML code for the sample page to create a button to click
 
